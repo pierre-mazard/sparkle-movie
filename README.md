@@ -2,7 +2,7 @@
 
 Projet PySpark pour analyser le dataset MovieLens et construire un moteur de recommandation.
 
-## Etape 1 - Socle du projet
+## 
 
 Structure initiale mise en place:
 
@@ -28,7 +28,7 @@ python -m sparkle_movie
 
 Cette commande démarre une session Spark locale et confirme que la configuration de base fonctionne.
 
-## Etape 3 - Preparation et chargement MovieLens
+## Preparation et chargement MovieLens
 
 Pour telecharger automatiquement le dataset officiel GroupLens (selon la taille definie dans .env), puis charger ratings.csv et movies.csv dans Spark avec un apercu des 10 premieres lignes:
 
@@ -57,7 +57,7 @@ Livrables generes:
 - Exports Tableau dans `data/processed/tableau/`
 - Donnees nettoyees en parquet dans `data/processed/cleaned/`
 
-## Etapes 3 a 6 - Modelisation et comparaison des recommandations
+##  Modelisation et comparaison des recommandations
 
 Pour executer:
 
@@ -103,9 +103,3 @@ Interpretation rapide:
 - ALS reste le plus utile pour la prediction de notes et la composante collaborative pure
 - UserKNN donne ici les meilleurs resultats en precision et rappel top-k
 - le modele hybride optimise atteint le niveau de UserKNN tout en conservant une fusion multi-signaux plus robuste
-
-Si tu veux poursuivre, les prochaines etapes naturelles sont:
-
-1. figer une version finale pour restitution ou soutenance
-2. preparer une presentation synthese des resultats
-3. transformer ce prototype en application de recommandation interactive
