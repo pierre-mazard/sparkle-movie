@@ -1,0 +1,21 @@
+movieId,movie_title,rating_count,mean_rating,median_rating,std_rating,bayesian_score
+318,"Shawshank Redemption, The (1994)",317,4.429,4.5,0.7119,4.3562
+858,"Godfather, The (1972)",192,4.2891,4.5,0.902,4.192
+2959,Fight Club (1999),218,4.2729,4.5,0.8594,4.1879
+260,Star Wars: Episode IV - A New Hope (1977),251,4.2311,4.5,0.8703,4.1602
+50,"Usual Suspects, The (1995)",204,4.2377,4.5,0.799,4.1517
+527,Schindler's List (1993),220,4.225,4.5,0.9738,4.1459
+296,Pulp Fiction (1994),307,4.1971,4.5,0.9504,4.1408
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),211,4.2156,4.5,0.8402,4.1346
+2571,"Matrix, The (1999)",278,4.1924,4.5,0.9735,4.1313
+1221,"Godfather: Part II, The (1974)",129,4.2597,4.5,0.8,4.1285
+58559,"Dark Knight, The (2008)",149,4.2383,4.5,0.7226,4.1252
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),200,4.2075,4.0,0.7926,4.1235
+1213,Goodfellas (1990),126,4.25,4.0,0.6807,4.1179
+1197,"Princess Bride, The (1987)",142,4.2324,4.5,0.8107,4.1156
+356,Forrest Gump (1994),329,4.1641,4.0,0.83,4.1139
+593,"Silence of the Lambs, The (1991)",279,4.1613,4.0,0.8525,4.1031
+750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),97,4.268,4.5,0.8029,4.1012
+48516,"Departed, The (2006)",107,4.2523,4.5,0.6883,4.1011
+2329,American History X (1998),129,4.2171,4.0,0.6405,4.0932
+1193,One Flew Over the Cuckoo's Nest (1975),133,4.203,4.0,0.756,4.0846

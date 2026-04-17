@@ -1,0 +1,2 @@
+rank,regParam,maxIter,validation_rmse,test_rmse
+40,0.1,15,0.8928026408324854,0.9226532696984076

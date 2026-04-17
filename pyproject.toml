@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparkle-movie"
+version = "0.1.0"
+description = "MovieLens recommendation project with PySpark"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pyspark==3.5.1",
+  "pandas==2.2.3",
+  "matplotlib==3.9.2",
+  "seaborn==0.13.2",
+  "python-dotenv==1.0.1",
+  "pyarrow==17.0.0",
+  "scikit-learn==1.5.2",
+]
+
+[project.scripts]
+sparkle-movie = "sparkle_movie.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

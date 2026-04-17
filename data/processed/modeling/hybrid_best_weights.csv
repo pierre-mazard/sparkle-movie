@@ -1,0 +1,2 @@
+als,content,knn,precision_at_k,recall_at_k,coverage_at_k,rmse
+0.1,0.1,0.8,0.014864864864864866,0.021725082649327064,0.15317392887486345,
